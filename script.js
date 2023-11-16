@@ -1,9 +1,9 @@
 function login() {
-    var username = document.getElementById('username').value;
-    var password = document.getElementById('password').value;
+    var username = document.getElementById('usuario').value;
+    var password = document.getElementById('senha').value;
   
 
-    if (username === 'usuario' && password === 'senha') {
+    if (username === 'guto' && password === '123') {
       window.location.href = 'dashboard.html';
     } else {
         window.location.href = 'index.html';
@@ -13,4 +13,3 @@ function login() {
 function logout() {
     window.location.href = 'index.html';
 }
-  
