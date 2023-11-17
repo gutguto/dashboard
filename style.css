@@ -1,19 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     text-align: center;
     margin: 50px;
   }
   
   form {
+    border-radius: 20px;
+    padding: 5vw;
+    background-color: #f2def5;
     display: inline-block;
     text-align: left;
   }
   
   button {
-    margin-top: 10px;
+    margin-left: 15vw;
+    color: rgb(0, 0, 0);
+		background-color: #ffffff;
+		font-size: 20px;	
+    margin-top: 3vw;
+		border: none;
+		border-radius: 10px;
   }
   
   h2 {
     margin-bottom: 20px;
   }
+
   
